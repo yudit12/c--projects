@@ -1,0 +1,26 @@
+ex4: main.o Simulator.o DogQueue.o PersonQueue.o Dog.o Person.o Character.o
+	g++ -Wall main.o Simulator.o DogQueue.o PersonQueue.o Dog.o Person.o Character.o -lncurses -o ex4
+	
+main.o:	main.cpp Simulator.h
+	g++ -c -Wall main.cpp -o main.o
+	
+Simulator.o: Simulator.cpp Simulator.h DogQueue.h PersonQueue.h Dog.h Person.h
+	g++ -c -Wall Simulator.cpp -o Simulator.o
+	
+DogQueue.o: DogQueue.cpp DogQueue.h Dog.h
+	g++ -c -Wall DogQueue.cpp -o DogQueue.o
+	
+PersonQueue.o: PersonQueue.cpp PersonQueue.h Person.h
+	g++ -c -Wall PersonQueue.cpp -o PersonQueue.o
+	
+Dog.o: Dog.cpp Character.h Dog.h
+	g++ -c -Wall Dog.cpp -o Dog.o
+	
+Person.o: Person.cpp Character.h Person.h
+	g++ -c -Wall Person.cpp -o Person.o
+
+Character.o: Character.cpp Character.h
+	g++ -c -Wall Character.cpp -o Character.o
+
+clean:
+	rm -rf *.o

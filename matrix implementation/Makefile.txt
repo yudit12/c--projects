@@ -1,0 +1,12 @@
+prog1: main.o  matrix.o
+	g++ -Wall main.o matrix.o -o matrix 
+	
+main.o: main.cpp matrix.h
+	g++ -Wall -c main.cpp -o main.o
+	
+Matrix.o: matrix.cpp matrix.h
+	g++ -Wall -c matrix.cpp -o matrix.o
+	
+
+clean:
+	rm -rf *.o

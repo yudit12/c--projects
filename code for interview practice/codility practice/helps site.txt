@@ -1,0 +1,17 @@
+/*
+Solution of Codility c++
+http://www.voidcn.com/article/p-rdcbteby-bck.html
+
+anther good one :
+https://sites.google.com/site/spaceofjameschen/home/codibility
+
+anther good one :
+https://github.com/markhary/codility
+
+ good site to learn c and c++
+ http://learn.onlinegdb.com/
+*/
+
+
+ what is openCL openGL
+ 

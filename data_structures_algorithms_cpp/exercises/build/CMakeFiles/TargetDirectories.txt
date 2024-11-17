@@ -1,0 +1,6 @@
+/usr/src/app/build/CMakeFiles/LinkedList.dir
+/usr/src/app/build/CMakeFiles/data_structures_algorithms_cpp.dir
+/usr/src/app/build/CMakeFiles/LinkedListTest.dir
+/usr/src/app/build/CMakeFiles/test.dir
+/usr/src/app/build/CMakeFiles/edit_cache.dir
+/usr/src/app/build/CMakeFiles/rebuild_cache.dir

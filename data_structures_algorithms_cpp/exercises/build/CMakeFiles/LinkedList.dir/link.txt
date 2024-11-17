@@ -1,0 +1,2 @@
+/usr/bin/ar qc libLinkedList.a "CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o"
+/usr/bin/ranlib libLinkedList.a

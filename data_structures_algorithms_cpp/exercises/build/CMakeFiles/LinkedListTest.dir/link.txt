@@ -1,0 +1,1 @@
+/usr/local/bin/c++ -g -g -g CMakeFiles/LinkedListTest.dir/tests/LinkedListTest.cpp.o -o LinkedListTest  libLinkedList.a /usr/local/lib/libgtest_main.a /usr/local/lib/libgtest.a 

@@ -1,0 +1,89 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "type": "shell",
+            "label": "Clean Build Directory",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "${workspaceFolder}/build/*"
+            ],
+            "problemMatcher": []
+        },
+        // {
+        //     "type": "shell",
+        //     "label": "Fetch GTest",
+        //     "command": "bash",
+        //     "args": [
+        //         "-c",
+        //         "if [ ! -d \"${workspaceFolder}/googletest\" ]; then git clone https://github.com/google/googletest.git ${workspaceFolder}/googletest && mkdir -p ${workspaceFolder}/googletest/build && cd ${workspaceFolder}/googletest/build && cmake .. && cmake --build .; fi"
+        //     ],
+        //     "problemMatcher": []
+        // },
+        {
+            "type": "shell",
+            "label": "Run CMake",
+            "command": "cmake",
+            "args": [
+                "-S",
+                "${workspaceFolder}",
+                "-B",
+                "${workspaceFolder}/build",
+                "-DCMAKE_BUILD_TYPE=Debug",
+                "-DCMAKE_CXX_FLAGS=-g",
+                "-DGTEST_ROOT=/usr/local" // Add this to explicitly point to GTest
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": false
+            },
+            "dependsOn": "Clean Build Directory",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Print Workspace Folder",
+            "command": "echo",
+            "args": ["Workspace Folder is:", "${workspaceFolder}"],
+            "problemMatcher": [],
+             "dependsOn": "Run CMake",
+        },
+        {
+            "type": "shell",
+            "label": "Build Project",
+            "command": "cmake",
+            "args": [
+                "--build",
+                "${workspaceFolder}/build",
+                "--target",
+                "all"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            // "dependsOn": "Run CMake",
+            "dependsOn": "Print Workspace Folder",
+            "problemMatcher": []
+        },
+        {
+            "type": "shell",
+            "label": "Run Unit Tests",
+            "command": "./build/LinkedListTest",
+            "args": [
+                "--output-on-failure",  // Optional: print details for failed tests
+                "--gtest_output=xml:${workspaceFolder}/tests_results.xml"  // Save results to XML
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}" 
+            },
+            "group": {
+                "kind": "test",
+                "isDefault": true
+            },
+            // "dependsOn": "Build Project",
+            "problemMatcher": []
+        }
+    ]
+}

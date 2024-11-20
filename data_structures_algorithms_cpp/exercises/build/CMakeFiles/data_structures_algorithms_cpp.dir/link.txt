@@ -1,1 +1,1 @@
-/usr/local/bin/c++ -g -g -g "CMakeFiles/data_structures_algorithms_cpp.dir/01-BigO/main.cpp.o" -o data_structures_algorithms_cpp  libLinkedList.a 
+/usr/local/bin/c++ -g -g -fsanitize=address -fno-omit-frame-pointer -g "CMakeFiles/data_structures_algorithms_cpp.dir/01-BigO/main.cpp.o" -o data_structures_algorithms_cpp  libLinkedList.a 

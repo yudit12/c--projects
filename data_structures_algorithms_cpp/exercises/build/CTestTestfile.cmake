@@ -5,4 +5,4 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 add_test(LinkedListTest "/usr/src/app/build/LinkedListTest")
-set_tests_properties(LinkedListTest PROPERTIES  _BACKTRACE_TRIPLES "/usr/src/app/CMakeLists.txt;54;add_test;/usr/src/app/CMakeLists.txt;0;")
+set_tests_properties(LinkedListTest PROPERTIES  _BACKTRACE_TRIPLES "/usr/src/app/CMakeLists.txt;66;add_test;/usr/src/app/CMakeLists.txt;0;")

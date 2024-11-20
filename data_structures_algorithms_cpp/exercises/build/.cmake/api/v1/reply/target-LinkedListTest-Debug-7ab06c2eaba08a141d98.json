@@ -29,19 +29,19 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 35,
+				"line" : 42,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 41,
+				"line" : 48,
 				"parent" : 0
 			},
 			{
 				"command" : 3,
 				"file" : 0,
-				"line" : 28,
+				"line" : 36,
 				"parent" : 0
 			},
 			{
@@ -69,13 +69,13 @@
 			{
 				"command" : 4,
 				"file" : 0,
-				"line" : 38,
+				"line" : 45,
 				"parent" : 0
 			},
 			{
 				"command" : 1,
 				"file" : 0,
-				"line" : 44,
+				"line" : 51,
 				"parent" : 0
 			}
 		]
@@ -86,7 +86,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -g -g"
+					"fragment" : "-g -g -fsanitize=address -fno-omit-frame-pointer -g"
 				},
 				{
 					"fragment" : "-std=gnu++17"
@@ -127,7 +127,7 @@
 		"commandFragments" : 
 		[
 			{
-				"fragment" : "-g -g -g",
+				"fragment" : "-g -g -fsanitize=address -fno-omit-frame-pointer -g",
 				"role" : "flags"
 			},
 			{

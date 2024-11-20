@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = 
 
-CXX_FLAGS = -g -g -g -std=gnu++17
+CXX_FLAGS = -g -g -fsanitize=address -fno-omit-frame-pointer -g -std=gnu++17
 

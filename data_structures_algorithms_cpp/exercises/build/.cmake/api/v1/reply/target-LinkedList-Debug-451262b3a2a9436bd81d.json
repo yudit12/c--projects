@@ -25,7 +25,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 15,
+				"line" : 22,
 				"parent" : 0
 			}
 		]
@@ -36,7 +36,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -g -g"
+					"fragment" : "-g -g -fsanitize=address -fno-omit-frame-pointer -g"
 				},
 				{
 					"fragment" : "-std=gnu++17"

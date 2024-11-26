@@ -30,7 +30,7 @@
             "name": "Debug Exercises Questions",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/01-BigO/QUESTION/ReverseBetween",
+            "program": "${workspaceFolder}/build/LinkedLists/QUESTION/ReverseBetween",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/usr/src/app/01-BigO/main.cpp" "CMakeFiles/data_structures_algorithms_cpp.dir/01-BigO/main.cpp.o" "gcc" "CMakeFiles/data_structures_algorithms_cpp.dir/01-BigO/main.cpp.o.d"
+  "/usr/src/app/LinkedLists/main.cpp" "CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o" "gcc" "CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o.d"
   )
 
 # Targets to which this target links.

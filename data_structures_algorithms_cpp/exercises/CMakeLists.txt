@@ -19,21 +19,21 @@ if(CMAKE_BUILD_TYPE MATCHES Debug)
 endif()
 
 # Add a static library for LinkedList
-add_library(LinkedList STATIC 01-BigO/LinkedList.cpp)
+add_library(LinkedList STATIC LinkedLists/LinkedList.cpp)
 
 # Ensure the main.cpp exists
-if(EXISTS "${CMAKE_SOURCE_DIR}/01-BigO/main.cpp")
+if(EXISTS "${CMAKE_SOURCE_DIR}/LinkedLists/main.cpp")
     # Add the executable target for the main application
-    add_executable(data_structures_algorithms_cpp 01-BigO/main.cpp)
+    add_executable(data_structures_algorithms_cpp LinkedLists/main.cpp)
     
     # Link the static library to the main executable
     target_link_libraries(data_structures_algorithms_cpp LinkedList)
 else()
-    message(FATAL_ERROR "01-BigO/main.cpp not found!")
+    message(FATAL_ERROR "LinkedLists/main.cpp not found!")
 endif()
 
-# Add executables for all .cpp files in 01-BigO/QUESTION
-file(GLOB QUESTION_SOURCES "${CMAKE_SOURCE_DIR}/01-BigO/QUESTION/*.cpp")
+# Add executables for all .cpp files in LinkedLists/QUESTION
+file(GLOB QUESTION_SOURCES "${CMAKE_SOURCE_DIR}/LinkedLists/QUESTION/*.cpp")
 foreach(source_file ${QUESTION_SOURCES})
     # Extract the base name of the file without extension
     get_filename_component(executable_name ${source_file} NAME_WE)
@@ -46,7 +46,7 @@ foreach(source_file ${QUESTION_SOURCES})
     # target_link_libraries(${executable_name} LinkedList)
 
     # Set the output directory for the executables
-    set_target_properties(${executable_name} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/01-BigO/QUESTION")
+    set_target_properties(${executable_name} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/LinkedLists/QUESTION")
 endforeach()
 
 
@@ -60,7 +60,7 @@ if(EXISTS "${CMAKE_SOURCE_DIR}/tests/LinkedListTest.cpp")
     add_executable(LinkedListTest tests/LinkedListTest.cpp)
 
     # Include the directory containing LinkedList.h for the test executable
-    target_include_directories(LinkedListTest PRIVATE 01-BigO)
+    target_include_directories(LinkedListTest PRIVATE LinkedLists)
 
     # Link the static library to the test executable
     target_link_libraries(LinkedListTest LinkedList)

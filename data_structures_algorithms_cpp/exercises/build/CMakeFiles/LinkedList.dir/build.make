@@ -69,28 +69,28 @@ include CMakeFiles/LinkedList.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/LinkedList.dir/flags.make
 
-CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o: CMakeFiles/LinkedList.dir/flags.make
-CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o: /usr/src/app/01-BigO/LinkedList.cpp
-CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o: CMakeFiles/LinkedList.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o -MF CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o.d -o CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o -c /usr/src/app/01-BigO/LinkedList.cpp
+CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o: CMakeFiles/LinkedList.dir/flags.make
+CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o: /usr/src/app/LinkedLists/LinkedList.cpp
+CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o: CMakeFiles/LinkedList.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o -MF CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o.d -o CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o -c /usr/src/app/LinkedLists/LinkedList.cpp
 
-CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/app/01-BigO/LinkedList.cpp > CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.i
+CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/app/LinkedLists/LinkedList.cpp > CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.i
 
-CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/app/01-BigO/LinkedList.cpp -o CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.s
+CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/app/LinkedLists/LinkedList.cpp -o CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.s
 
 # Object files for target LinkedList
 LinkedList_OBJECTS = \
-"CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o"
+"CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o"
 
 # External object files for target LinkedList
 LinkedList_EXTERNAL_OBJECTS =
 
-libLinkedList.a: CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o
+libLinkedList.a: CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o
 libLinkedList.a: CMakeFiles/LinkedList.dir/build.make
 libLinkedList.a: CMakeFiles/LinkedList.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libLinkedList.a"

@@ -8,7 +8,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/usr/src/app/01-BigO/LinkedList.cpp" "CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o" "gcc" "CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.o.d"
+  "/usr/src/app/LinkedLists/LinkedList.cpp" "CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o" "gcc" "CMakeFiles/LinkedList.dir/LinkedLists/LinkedList.cpp.o.d"
   )
 
 # Targets to which this target links.

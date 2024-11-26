@@ -139,5 +139,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkedList.dir/DependInfo.cmake"
   "CMakeFiles/data_structures_algorithms_cpp.dir/DependInfo.cmake"
+  "CMakeFiles/BinaryToDecimal.dir/DependInfo.cmake"
+  "CMakeFiles/FindKthNodeFromEnd.dir/DependInfo.cmake"
+  "CMakeFiles/FindMiddleNode.dir/DependInfo.cmake"
+  "CMakeFiles/PartitionList.dir/DependInfo.cmake"
+  "CMakeFiles/RemoveDuplicates.dir/DependInfo.cmake"
+  "CMakeFiles/ReverseBetween.dir/DependInfo.cmake"
+  "CMakeFiles/hasLoop.dir/DependInfo.cmake"
   "CMakeFiles/LinkedListTest.dir/DependInfo.cmake"
   )

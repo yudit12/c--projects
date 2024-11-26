@@ -32,6 +32,24 @@ else()
     message(FATAL_ERROR "01-BigO/main.cpp not found!")
 endif()
 
+# Add executables for all .cpp files in 01-BigO/QUESTION
+file(GLOB QUESTION_SOURCES "${CMAKE_SOURCE_DIR}/01-BigO/QUESTION/*.cpp")
+foreach(source_file ${QUESTION_SOURCES})
+    # Extract the base name of the file without extension
+    get_filename_component(executable_name ${source_file} NAME_WE)
+
+    # Add executable for each .cpp file
+    add_executable(${executable_name} ${source_file})
+
+    # # Optionally, you can link the LinkedList library to each of these executables
+    # #This command tells CMake to link a specific library to an executable. This is necessary when the executable depends on code that is implemented in a library.
+    # target_link_libraries(${executable_name} LinkedList)
+
+    # Set the output directory for the executables
+    set_target_properties(${executable_name} PROPERTIES RUNTIME_OUTPUT_DIRECTORY "${CMAKE_BINARY_DIR}/01-BigO/QUESTION")
+endforeach()
+
+
 # Install GTest if it's not found
 find_package(GTest REQUIRED)
 include_directories(${GTEST_INCLUDE_DIRS})

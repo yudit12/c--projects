@@ -153,6 +153,97 @@ data_structures_algorithms_cpp/fast:
 .PHONY : data_structures_algorithms_cpp/fast
 
 #=============================================================================
+# Target rules for targets named BinaryToDecimal
+
+# Build rule for target.
+BinaryToDecimal: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 BinaryToDecimal
+.PHONY : BinaryToDecimal
+
+# fast build rule for target.
+BinaryToDecimal/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/build
+.PHONY : BinaryToDecimal/fast
+
+#=============================================================================
+# Target rules for targets named FindKthNodeFromEnd
+
+# Build rule for target.
+FindKthNodeFromEnd: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FindKthNodeFromEnd
+.PHONY : FindKthNodeFromEnd
+
+# fast build rule for target.
+FindKthNodeFromEnd/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/build
+.PHONY : FindKthNodeFromEnd/fast
+
+#=============================================================================
+# Target rules for targets named FindMiddleNode
+
+# Build rule for target.
+FindMiddleNode: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 FindMiddleNode
+.PHONY : FindMiddleNode
+
+# fast build rule for target.
+FindMiddleNode/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/build
+.PHONY : FindMiddleNode/fast
+
+#=============================================================================
+# Target rules for targets named PartitionList
+
+# Build rule for target.
+PartitionList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 PartitionList
+.PHONY : PartitionList
+
+# fast build rule for target.
+PartitionList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/build
+.PHONY : PartitionList/fast
+
+#=============================================================================
+# Target rules for targets named RemoveDuplicates
+
+# Build rule for target.
+RemoveDuplicates: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 RemoveDuplicates
+.PHONY : RemoveDuplicates
+
+# fast build rule for target.
+RemoveDuplicates/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/build
+.PHONY : RemoveDuplicates/fast
+
+#=============================================================================
+# Target rules for targets named ReverseBetween
+
+# Build rule for target.
+ReverseBetween: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 ReverseBetween
+.PHONY : ReverseBetween
+
+# fast build rule for target.
+ReverseBetween/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/build
+.PHONY : ReverseBetween/fast
+
+#=============================================================================
+# Target rules for targets named hasLoop
+
+# Build rule for target.
+hasLoop: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 hasLoop
+.PHONY : hasLoop
+
+# fast build rule for target.
+hasLoop/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/build
+.PHONY : hasLoop/fast
+
+#=============================================================================
 # Target rules for targets named LinkedListTest
 
 # Build rule for target.
@@ -188,6 +279,174 @@ LinkedListTest/fast:
 01-BigO/LinkedList.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/01-BigO/LinkedList.cpp.s
 .PHONY : 01-BigO/LinkedList.cpp.s
+
+01-BigO/QUESTION/BinaryToDecimal.o: 01-BigO/QUESTION/BinaryToDecimal.cpp.o
+.PHONY : 01-BigO/QUESTION/BinaryToDecimal.o
+
+# target to build an object file
+01-BigO/QUESTION/BinaryToDecimal.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/01-BigO/QUESTION/BinaryToDecimal.cpp.o
+.PHONY : 01-BigO/QUESTION/BinaryToDecimal.cpp.o
+
+01-BigO/QUESTION/BinaryToDecimal.i: 01-BigO/QUESTION/BinaryToDecimal.cpp.i
+.PHONY : 01-BigO/QUESTION/BinaryToDecimal.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/BinaryToDecimal.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/01-BigO/QUESTION/BinaryToDecimal.cpp.i
+.PHONY : 01-BigO/QUESTION/BinaryToDecimal.cpp.i
+
+01-BigO/QUESTION/BinaryToDecimal.s: 01-BigO/QUESTION/BinaryToDecimal.cpp.s
+.PHONY : 01-BigO/QUESTION/BinaryToDecimal.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/BinaryToDecimal.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/01-BigO/QUESTION/BinaryToDecimal.cpp.s
+.PHONY : 01-BigO/QUESTION/BinaryToDecimal.cpp.s
+
+01-BigO/QUESTION/FindKthNodeFromEnd.o: 01-BigO/QUESTION/FindKthNodeFromEnd.cpp.o
+.PHONY : 01-BigO/QUESTION/FindKthNodeFromEnd.o
+
+# target to build an object file
+01-BigO/QUESTION/FindKthNodeFromEnd.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/01-BigO/QUESTION/FindKthNodeFromEnd.cpp.o
+.PHONY : 01-BigO/QUESTION/FindKthNodeFromEnd.cpp.o
+
+01-BigO/QUESTION/FindKthNodeFromEnd.i: 01-BigO/QUESTION/FindKthNodeFromEnd.cpp.i
+.PHONY : 01-BigO/QUESTION/FindKthNodeFromEnd.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/FindKthNodeFromEnd.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/01-BigO/QUESTION/FindKthNodeFromEnd.cpp.i
+.PHONY : 01-BigO/QUESTION/FindKthNodeFromEnd.cpp.i
+
+01-BigO/QUESTION/FindKthNodeFromEnd.s: 01-BigO/QUESTION/FindKthNodeFromEnd.cpp.s
+.PHONY : 01-BigO/QUESTION/FindKthNodeFromEnd.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/FindKthNodeFromEnd.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/01-BigO/QUESTION/FindKthNodeFromEnd.cpp.s
+.PHONY : 01-BigO/QUESTION/FindKthNodeFromEnd.cpp.s
+
+01-BigO/QUESTION/FindMiddleNode.o: 01-BigO/QUESTION/FindMiddleNode.cpp.o
+.PHONY : 01-BigO/QUESTION/FindMiddleNode.o
+
+# target to build an object file
+01-BigO/QUESTION/FindMiddleNode.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/01-BigO/QUESTION/FindMiddleNode.cpp.o
+.PHONY : 01-BigO/QUESTION/FindMiddleNode.cpp.o
+
+01-BigO/QUESTION/FindMiddleNode.i: 01-BigO/QUESTION/FindMiddleNode.cpp.i
+.PHONY : 01-BigO/QUESTION/FindMiddleNode.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/FindMiddleNode.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/01-BigO/QUESTION/FindMiddleNode.cpp.i
+.PHONY : 01-BigO/QUESTION/FindMiddleNode.cpp.i
+
+01-BigO/QUESTION/FindMiddleNode.s: 01-BigO/QUESTION/FindMiddleNode.cpp.s
+.PHONY : 01-BigO/QUESTION/FindMiddleNode.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/FindMiddleNode.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/01-BigO/QUESTION/FindMiddleNode.cpp.s
+.PHONY : 01-BigO/QUESTION/FindMiddleNode.cpp.s
+
+01-BigO/QUESTION/PartitionList.o: 01-BigO/QUESTION/PartitionList.cpp.o
+.PHONY : 01-BigO/QUESTION/PartitionList.o
+
+# target to build an object file
+01-BigO/QUESTION/PartitionList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/01-BigO/QUESTION/PartitionList.cpp.o
+.PHONY : 01-BigO/QUESTION/PartitionList.cpp.o
+
+01-BigO/QUESTION/PartitionList.i: 01-BigO/QUESTION/PartitionList.cpp.i
+.PHONY : 01-BigO/QUESTION/PartitionList.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/PartitionList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/01-BigO/QUESTION/PartitionList.cpp.i
+.PHONY : 01-BigO/QUESTION/PartitionList.cpp.i
+
+01-BigO/QUESTION/PartitionList.s: 01-BigO/QUESTION/PartitionList.cpp.s
+.PHONY : 01-BigO/QUESTION/PartitionList.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/PartitionList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/01-BigO/QUESTION/PartitionList.cpp.s
+.PHONY : 01-BigO/QUESTION/PartitionList.cpp.s
+
+01-BigO/QUESTION/RemoveDuplicates.o: 01-BigO/QUESTION/RemoveDuplicates.cpp.o
+.PHONY : 01-BigO/QUESTION/RemoveDuplicates.o
+
+# target to build an object file
+01-BigO/QUESTION/RemoveDuplicates.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/01-BigO/QUESTION/RemoveDuplicates.cpp.o
+.PHONY : 01-BigO/QUESTION/RemoveDuplicates.cpp.o
+
+01-BigO/QUESTION/RemoveDuplicates.i: 01-BigO/QUESTION/RemoveDuplicates.cpp.i
+.PHONY : 01-BigO/QUESTION/RemoveDuplicates.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/RemoveDuplicates.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/01-BigO/QUESTION/RemoveDuplicates.cpp.i
+.PHONY : 01-BigO/QUESTION/RemoveDuplicates.cpp.i
+
+01-BigO/QUESTION/RemoveDuplicates.s: 01-BigO/QUESTION/RemoveDuplicates.cpp.s
+.PHONY : 01-BigO/QUESTION/RemoveDuplicates.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/RemoveDuplicates.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/01-BigO/QUESTION/RemoveDuplicates.cpp.s
+.PHONY : 01-BigO/QUESTION/RemoveDuplicates.cpp.s
+
+01-BigO/QUESTION/ReverseBetween.o: 01-BigO/QUESTION/ReverseBetween.cpp.o
+.PHONY : 01-BigO/QUESTION/ReverseBetween.o
+
+# target to build an object file
+01-BigO/QUESTION/ReverseBetween.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/01-BigO/QUESTION/ReverseBetween.cpp.o
+.PHONY : 01-BigO/QUESTION/ReverseBetween.cpp.o
+
+01-BigO/QUESTION/ReverseBetween.i: 01-BigO/QUESTION/ReverseBetween.cpp.i
+.PHONY : 01-BigO/QUESTION/ReverseBetween.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/ReverseBetween.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/01-BigO/QUESTION/ReverseBetween.cpp.i
+.PHONY : 01-BigO/QUESTION/ReverseBetween.cpp.i
+
+01-BigO/QUESTION/ReverseBetween.s: 01-BigO/QUESTION/ReverseBetween.cpp.s
+.PHONY : 01-BigO/QUESTION/ReverseBetween.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/ReverseBetween.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/01-BigO/QUESTION/ReverseBetween.cpp.s
+.PHONY : 01-BigO/QUESTION/ReverseBetween.cpp.s
+
+01-BigO/QUESTION/hasLoop.o: 01-BigO/QUESTION/hasLoop.cpp.o
+.PHONY : 01-BigO/QUESTION/hasLoop.o
+
+# target to build an object file
+01-BigO/QUESTION/hasLoop.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/01-BigO/QUESTION/hasLoop.cpp.o
+.PHONY : 01-BigO/QUESTION/hasLoop.cpp.o
+
+01-BigO/QUESTION/hasLoop.i: 01-BigO/QUESTION/hasLoop.cpp.i
+.PHONY : 01-BigO/QUESTION/hasLoop.i
+
+# target to preprocess a source file
+01-BigO/QUESTION/hasLoop.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/01-BigO/QUESTION/hasLoop.cpp.i
+.PHONY : 01-BigO/QUESTION/hasLoop.cpp.i
+
+01-BigO/QUESTION/hasLoop.s: 01-BigO/QUESTION/hasLoop.cpp.s
+.PHONY : 01-BigO/QUESTION/hasLoop.s
+
+# target to generate assembly for a file
+01-BigO/QUESTION/hasLoop.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/01-BigO/QUESTION/hasLoop.cpp.s
+.PHONY : 01-BigO/QUESTION/hasLoop.cpp.s
 
 01-BigO/main.o: 01-BigO/main.cpp.o
 .PHONY : 01-BigO/main.o
@@ -246,12 +505,40 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... test"
+	@echo "... BinaryToDecimal"
+	@echo "... FindKthNodeFromEnd"
+	@echo "... FindMiddleNode"
 	@echo "... LinkedList"
 	@echo "... LinkedListTest"
+	@echo "... PartitionList"
+	@echo "... RemoveDuplicates"
+	@echo "... ReverseBetween"
 	@echo "... data_structures_algorithms_cpp"
+	@echo "... hasLoop"
 	@echo "... 01-BigO/LinkedList.o"
 	@echo "... 01-BigO/LinkedList.i"
 	@echo "... 01-BigO/LinkedList.s"
+	@echo "... 01-BigO/QUESTION/BinaryToDecimal.o"
+	@echo "... 01-BigO/QUESTION/BinaryToDecimal.i"
+	@echo "... 01-BigO/QUESTION/BinaryToDecimal.s"
+	@echo "... 01-BigO/QUESTION/FindKthNodeFromEnd.o"
+	@echo "... 01-BigO/QUESTION/FindKthNodeFromEnd.i"
+	@echo "... 01-BigO/QUESTION/FindKthNodeFromEnd.s"
+	@echo "... 01-BigO/QUESTION/FindMiddleNode.o"
+	@echo "... 01-BigO/QUESTION/FindMiddleNode.i"
+	@echo "... 01-BigO/QUESTION/FindMiddleNode.s"
+	@echo "... 01-BigO/QUESTION/PartitionList.o"
+	@echo "... 01-BigO/QUESTION/PartitionList.i"
+	@echo "... 01-BigO/QUESTION/PartitionList.s"
+	@echo "... 01-BigO/QUESTION/RemoveDuplicates.o"
+	@echo "... 01-BigO/QUESTION/RemoveDuplicates.i"
+	@echo "... 01-BigO/QUESTION/RemoveDuplicates.s"
+	@echo "... 01-BigO/QUESTION/ReverseBetween.o"
+	@echo "... 01-BigO/QUESTION/ReverseBetween.i"
+	@echo "... 01-BigO/QUESTION/ReverseBetween.s"
+	@echo "... 01-BigO/QUESTION/hasLoop.o"
+	@echo "... 01-BigO/QUESTION/hasLoop.i"
+	@echo "... 01-BigO/QUESTION/hasLoop.s"
 	@echo "... 01-BigO/main.o"
 	@echo "... 01-BigO/main.i"
 	@echo "... 01-BigO/main.s"

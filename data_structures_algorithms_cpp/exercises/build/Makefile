@@ -140,6 +140,45 @@ LinkedList/fast:
 .PHONY : LinkedList/fast
 
 #=============================================================================
+# Target rules for targets named DoublyLinkedList
+
+# Build rule for target.
+DoublyLinkedList: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DoublyLinkedList
+.PHONY : DoublyLinkedList
+
+# fast build rule for target.
+DoublyLinkedList/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/build
+.PHONY : DoublyLinkedList/fast
+
+#=============================================================================
+# Target rules for targets named DoublyLinkedList_main
+
+# Build rule for target.
+DoublyLinkedList_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DoublyLinkedList_main
+.PHONY : DoublyLinkedList_main
+
+# fast build rule for target.
+DoublyLinkedList_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/build
+.PHONY : DoublyLinkedList_main/fast
+
+#=============================================================================
+# Target rules for targets named LinkedList_main
+
+# Build rule for target.
+LinkedList_main: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedList_main
+.PHONY : LinkedList_main
+
+# fast build rule for target.
+LinkedList_main/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/build
+.PHONY : LinkedList_main/fast
+
+#=============================================================================
 # Target rules for targets named data_structures_algorithms_cpp
 
 # Build rule for target.
@@ -151,6 +190,32 @@ data_structures_algorithms_cpp: cmake_check_build_system
 data_structures_algorithms_cpp/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/build
 .PHONY : data_structures_algorithms_cpp/fast
+
+#=============================================================================
+# Target rules for targets named DoublyLinkedListTest
+
+# Build rule for target.
+DoublyLinkedListTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 DoublyLinkedListTest
+.PHONY : DoublyLinkedListTest
+
+# fast build rule for target.
+DoublyLinkedListTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/build
+.PHONY : DoublyLinkedListTest/fast
+
+#=============================================================================
+# Target rules for targets named LinkedListTest
+
+# Build rule for target.
+LinkedListTest: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedListTest
+.PHONY : LinkedListTest
+
+# fast build rule for target.
+LinkedListTest/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTest.dir/build.make CMakeFiles/LinkedListTest.dir/build
+.PHONY : LinkedListTest/fast
 
 #=============================================================================
 # Target rules for targets named BinaryToDecimal
@@ -243,18 +308,53 @@ hasLoop/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/build
 .PHONY : hasLoop/fast
 
-#=============================================================================
-# Target rules for targets named LinkedListTest
+DoublyLinkedLists/DoublyLinkedList.o: DoublyLinkedLists/DoublyLinkedList.cpp.o
+.PHONY : DoublyLinkedLists/DoublyLinkedList.o
 
-# Build rule for target.
-LinkedListTest: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 LinkedListTest
-.PHONY : LinkedListTest
+# target to build an object file
+DoublyLinkedLists/DoublyLinkedList.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedLists/DoublyLinkedList.cpp.o
+.PHONY : DoublyLinkedLists/DoublyLinkedList.cpp.o
 
-# fast build rule for target.
-LinkedListTest/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTest.dir/build.make CMakeFiles/LinkedListTest.dir/build
-.PHONY : LinkedListTest/fast
+DoublyLinkedLists/DoublyLinkedList.i: DoublyLinkedLists/DoublyLinkedList.cpp.i
+.PHONY : DoublyLinkedLists/DoublyLinkedList.i
+
+# target to preprocess a source file
+DoublyLinkedLists/DoublyLinkedList.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedLists/DoublyLinkedList.cpp.i
+.PHONY : DoublyLinkedLists/DoublyLinkedList.cpp.i
+
+DoublyLinkedLists/DoublyLinkedList.s: DoublyLinkedLists/DoublyLinkedList.cpp.s
+.PHONY : DoublyLinkedLists/DoublyLinkedList.s
+
+# target to generate assembly for a file
+DoublyLinkedLists/DoublyLinkedList.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/DoublyLinkedLists/DoublyLinkedList.cpp.s
+.PHONY : DoublyLinkedLists/DoublyLinkedList.cpp.s
+
+DoublyLinkedLists/main.o: DoublyLinkedLists/main.cpp.o
+.PHONY : DoublyLinkedLists/main.o
+
+# target to build an object file
+DoublyLinkedLists/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/DoublyLinkedLists/main.cpp.o
+.PHONY : DoublyLinkedLists/main.cpp.o
+
+DoublyLinkedLists/main.i: DoublyLinkedLists/main.cpp.i
+.PHONY : DoublyLinkedLists/main.i
+
+# target to preprocess a source file
+DoublyLinkedLists/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/DoublyLinkedLists/main.cpp.i
+.PHONY : DoublyLinkedLists/main.cpp.i
+
+DoublyLinkedLists/main.s: DoublyLinkedLists/main.cpp.s
+.PHONY : DoublyLinkedLists/main.s
+
+# target to generate assembly for a file
+DoublyLinkedLists/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/DoublyLinkedLists/main.cpp.s
+.PHONY : DoublyLinkedLists/main.cpp.s
 
 LinkedLists/LinkedList.o: LinkedLists/LinkedList.cpp.o
 .PHONY : LinkedLists/LinkedList.o
@@ -453,7 +553,7 @@ LinkedLists/main.o: LinkedLists/main.cpp.o
 
 # target to build an object file
 LinkedLists/main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/LinkedLists/main.cpp.o
 .PHONY : LinkedLists/main.cpp.o
 
 LinkedLists/main.i: LinkedLists/main.cpp.i
@@ -461,7 +561,7 @@ LinkedLists/main.i: LinkedLists/main.cpp.i
 
 # target to preprocess a source file
 LinkedLists/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/LinkedLists/main.cpp.i
 .PHONY : LinkedLists/main.cpp.i
 
 LinkedLists/main.s: LinkedLists/main.cpp.s
@@ -469,8 +569,56 @@ LinkedLists/main.s: LinkedLists/main.cpp.s
 
 # target to generate assembly for a file
 LinkedLists/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/LinkedLists/main.cpp.s
 .PHONY : LinkedLists/main.cpp.s
+
+main.o: main.cpp.o
+.PHONY : main.o
+
+# target to build an object file
+main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o
+.PHONY : main.cpp.o
+
+main.i: main.cpp.i
+.PHONY : main.i
+
+# target to preprocess a source file
+main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.i
+.PHONY : main.cpp.i
+
+main.s: main.cpp.s
+.PHONY : main.s
+
+# target to generate assembly for a file
+main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.s
+.PHONY : main.cpp.s
+
+tests/DoublyLinkedListTest.o: tests/DoublyLinkedListTest.cpp.o
+.PHONY : tests/DoublyLinkedListTest.o
+
+# target to build an object file
+tests/DoublyLinkedListTest.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/tests/DoublyLinkedListTest.cpp.o
+.PHONY : tests/DoublyLinkedListTest.cpp.o
+
+tests/DoublyLinkedListTest.i: tests/DoublyLinkedListTest.cpp.i
+.PHONY : tests/DoublyLinkedListTest.i
+
+# target to preprocess a source file
+tests/DoublyLinkedListTest.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/tests/DoublyLinkedListTest.cpp.i
+.PHONY : tests/DoublyLinkedListTest.cpp.i
+
+tests/DoublyLinkedListTest.s: tests/DoublyLinkedListTest.cpp.s
+.PHONY : tests/DoublyLinkedListTest.s
+
+# target to generate assembly for a file
+tests/DoublyLinkedListTest.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/tests/DoublyLinkedListTest.cpp.s
+.PHONY : tests/DoublyLinkedListTest.cpp.s
 
 tests/LinkedListTest.o: tests/LinkedListTest.cpp.o
 .PHONY : tests/LinkedListTest.o
@@ -506,15 +654,25 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... test"
 	@echo "... BinaryToDecimal"
+	@echo "... DoublyLinkedList"
+	@echo "... DoublyLinkedListTest"
+	@echo "... DoublyLinkedList_main"
 	@echo "... FindKthNodeFromEnd"
 	@echo "... FindMiddleNode"
 	@echo "... LinkedList"
 	@echo "... LinkedListTest"
+	@echo "... LinkedList_main"
 	@echo "... PartitionList"
 	@echo "... RemoveDuplicates"
 	@echo "... ReverseBetween"
 	@echo "... data_structures_algorithms_cpp"
 	@echo "... hasLoop"
+	@echo "... DoublyLinkedLists/DoublyLinkedList.o"
+	@echo "... DoublyLinkedLists/DoublyLinkedList.i"
+	@echo "... DoublyLinkedLists/DoublyLinkedList.s"
+	@echo "... DoublyLinkedLists/main.o"
+	@echo "... DoublyLinkedLists/main.i"
+	@echo "... DoublyLinkedLists/main.s"
 	@echo "... LinkedLists/LinkedList.o"
 	@echo "... LinkedLists/LinkedList.i"
 	@echo "... LinkedLists/LinkedList.s"
@@ -542,6 +700,12 @@ help:
 	@echo "... LinkedLists/main.o"
 	@echo "... LinkedLists/main.i"
 	@echo "... LinkedLists/main.s"
+	@echo "... main.o"
+	@echo "... main.i"
+	@echo "... main.s"
+	@echo "... tests/DoublyLinkedListTest.o"
+	@echo "... tests/DoublyLinkedListTest.i"
+	@echo "... tests/DoublyLinkedListTest.s"
 	@echo "... tests/LinkedListTest.o"
 	@echo "... tests/LinkedListTest.i"
 	@echo "... tests/LinkedListTest.s"

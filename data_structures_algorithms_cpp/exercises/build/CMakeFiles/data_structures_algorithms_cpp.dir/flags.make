@@ -4,7 +4,7 @@
 # compile CXX with /usr/local/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = 
+CXX_INCLUDES = -I/usr/src/app/LinkedLists -I/usr/src/app/DoublyLinkedLists
 
 CXX_FLAGS = -g -g -fsanitize=address -fno-omit-frame-pointer -g -std=gnu++17
 

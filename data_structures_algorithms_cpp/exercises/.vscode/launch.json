@@ -5,7 +5,7 @@
             "name": "Debug C++ Project",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/data_structures_algorithms_cpp",
+            "program": "${workspaceFolder}/build/bins/data_structures_algorithms_cpp",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",
@@ -27,10 +27,34 @@
             "postDebugTask": "Run Unit Tests", //  add it if you want to run only by Debug C++ Project debug task
         },
         {
-            "name": "Debug Exercises Questions",
+            "name": "Debug LinkedLists Exercises Questions",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/build/LinkedLists/QUESTION/ReverseBetween",
+            "program": "${workspaceFolder}/build/bins/LinkedList/QUESTION/ReverseBetween",
+            "args": [],
+            "stopAtEntry": false,
+            "cwd": "${workspaceFolder}",
+            "environment": [
+                { "name": "ASAN_OPTIONS", "value": "detect_leaks=0:halt_on_error=1:verbosity=1" },
+                { "name": "LSAN_OPTIONS", "value": "detect_leaks=0:verbosity=1:log_threads=1" }
+            ],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "miDebuggerPath": "/usr/bin/gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "Build Project",
+        },
+        {
+            "name": "Debug DoublyLinkedLists",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/bins/DoublyLinkedList/DoublyLinkedList_main",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

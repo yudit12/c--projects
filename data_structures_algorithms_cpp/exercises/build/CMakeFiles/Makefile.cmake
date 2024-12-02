@@ -138,7 +138,12 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/LinkedList.dir/DependInfo.cmake"
+  "CMakeFiles/DoublyLinkedList.dir/DependInfo.cmake"
+  "CMakeFiles/DoublyLinkedList_main.dir/DependInfo.cmake"
+  "CMakeFiles/LinkedList_main.dir/DependInfo.cmake"
   "CMakeFiles/data_structures_algorithms_cpp.dir/DependInfo.cmake"
+  "CMakeFiles/DoublyLinkedListTest.dir/DependInfo.cmake"
+  "CMakeFiles/LinkedListTest.dir/DependInfo.cmake"
   "CMakeFiles/BinaryToDecimal.dir/DependInfo.cmake"
   "CMakeFiles/FindKthNodeFromEnd.dir/DependInfo.cmake"
   "CMakeFiles/FindMiddleNode.dir/DependInfo.cmake"
@@ -146,5 +151,4 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/RemoveDuplicates.dir/DependInfo.cmake"
   "CMakeFiles/ReverseBetween.dir/DependInfo.cmake"
   "CMakeFiles/hasLoop.dir/DependInfo.cmake"
-  "CMakeFiles/LinkedListTest.dir/DependInfo.cmake"
   )

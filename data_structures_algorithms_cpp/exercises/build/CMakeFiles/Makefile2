@@ -64,7 +64,12 @@ CMAKE_BINARY_DIR = /usr/src/app/build
 
 # The main recursive "all" target.
 all: CMakeFiles/LinkedList.dir/all
+all: CMakeFiles/DoublyLinkedList.dir/all
+all: CMakeFiles/DoublyLinkedList_main.dir/all
+all: CMakeFiles/LinkedList_main.dir/all
 all: CMakeFiles/data_structures_algorithms_cpp.dir/all
+all: CMakeFiles/DoublyLinkedListTest.dir/all
+all: CMakeFiles/LinkedListTest.dir/all
 all: CMakeFiles/BinaryToDecimal.dir/all
 all: CMakeFiles/FindKthNodeFromEnd.dir/all
 all: CMakeFiles/FindMiddleNode.dir/all
@@ -72,7 +77,6 @@ all: CMakeFiles/PartitionList.dir/all
 all: CMakeFiles/RemoveDuplicates.dir/all
 all: CMakeFiles/ReverseBetween.dir/all
 all: CMakeFiles/hasLoop.dir/all
-all: CMakeFiles/LinkedListTest.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -81,7 +85,12 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/LinkedList.dir/clean
+clean: CMakeFiles/DoublyLinkedList.dir/clean
+clean: CMakeFiles/DoublyLinkedList_main.dir/clean
+clean: CMakeFiles/LinkedList_main.dir/clean
 clean: CMakeFiles/data_structures_algorithms_cpp.dir/clean
+clean: CMakeFiles/DoublyLinkedListTest.dir/clean
+clean: CMakeFiles/LinkedListTest.dir/clean
 clean: CMakeFiles/BinaryToDecimal.dir/clean
 clean: CMakeFiles/FindKthNodeFromEnd.dir/clean
 clean: CMakeFiles/FindMiddleNode.dir/clean
@@ -89,7 +98,6 @@ clean: CMakeFiles/PartitionList.dir/clean
 clean: CMakeFiles/RemoveDuplicates.dir/clean
 clean: CMakeFiles/ReverseBetween.dir/clean
 clean: CMakeFiles/hasLoop.dir/clean
-clean: CMakeFiles/LinkedListTest.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,7 +107,7 @@ clean: CMakeFiles/LinkedListTest.dir/clean
 CMakeFiles/LinkedList.dir/all:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList.dir/build.make CMakeFiles/LinkedList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=7,8 "Built target LinkedList"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=13,14 "Built target LinkedList"
 .PHONY : CMakeFiles/LinkedList.dir/all
 
 # Build rule for subdir invocation for target.
@@ -119,18 +127,97 @@ CMakeFiles/LinkedList.dir/clean:
 .PHONY : CMakeFiles/LinkedList.dir/clean
 
 #=============================================================================
+# Target rules for target CMakeFiles/DoublyLinkedList.dir
+
+# All Build rule for target.
+CMakeFiles/DoublyLinkedList.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=3,4 "Built target DoublyLinkedList"
+.PHONY : CMakeFiles/DoublyLinkedList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DoublyLinkedList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DoublyLinkedList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/DoublyLinkedList.dir/rule
+
+# Convenience name for target.
+DoublyLinkedList: CMakeFiles/DoublyLinkedList.dir/rule
+.PHONY : DoublyLinkedList
+
+# clean rule for target.
+CMakeFiles/DoublyLinkedList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList.dir/build.make CMakeFiles/DoublyLinkedList.dir/clean
+.PHONY : CMakeFiles/DoublyLinkedList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/DoublyLinkedList_main.dir
+
+# All Build rule for target.
+CMakeFiles/DoublyLinkedList_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=7,8 "Built target DoublyLinkedList_main"
+.PHONY : CMakeFiles/DoublyLinkedList_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/DoublyLinkedList_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DoublyLinkedList_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/DoublyLinkedList_main.dir/rule
+
+# Convenience name for target.
+DoublyLinkedList_main: CMakeFiles/DoublyLinkedList_main.dir/rule
+.PHONY : DoublyLinkedList_main
+
+# clean rule for target.
+CMakeFiles/DoublyLinkedList_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedList_main.dir/build.make CMakeFiles/DoublyLinkedList_main.dir/clean
+.PHONY : CMakeFiles/DoublyLinkedList_main.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/LinkedList_main.dir
+
+# All Build rule for target.
+CMakeFiles/LinkedList_main.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=17,18 "Built target LinkedList_main"
+.PHONY : CMakeFiles/LinkedList_main.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/LinkedList_main.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/LinkedList_main.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/LinkedList_main.dir/rule
+
+# Convenience name for target.
+LinkedList_main: CMakeFiles/LinkedList_main.dir/rule
+.PHONY : LinkedList_main
+
+# clean rule for target.
+CMakeFiles/LinkedList_main.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedList_main.dir/build.make CMakeFiles/LinkedList_main.dir/clean
+.PHONY : CMakeFiles/LinkedList_main.dir/clean
+
+#=============================================================================
 # Target rules for target CMakeFiles/data_structures_algorithms_cpp.dir
 
 # All Build rule for target.
 CMakeFiles/data_structures_algorithms_cpp.dir/all: CMakeFiles/LinkedList.dir/all
+CMakeFiles/data_structures_algorithms_cpp.dir/all: CMakeFiles/DoublyLinkedList.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/data_structures_algorithms_cpp.dir/build.make CMakeFiles/data_structures_algorithms_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=17,18 "Built target data_structures_algorithms_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=25,26 "Built target data_structures_algorithms_cpp"
 .PHONY : CMakeFiles/data_structures_algorithms_cpp.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/data_structures_algorithms_cpp.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 6
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/data_structures_algorithms_cpp.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
 .PHONY : CMakeFiles/data_structures_algorithms_cpp.dir/rule
@@ -145,186 +232,30 @@ CMakeFiles/data_structures_algorithms_cpp.dir/clean:
 .PHONY : CMakeFiles/data_structures_algorithms_cpp.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/BinaryToDecimal.dir
+# Target rules for target CMakeFiles/DoublyLinkedListTest.dir
 
 # All Build rule for target.
-CMakeFiles/BinaryToDecimal.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=1,2 "Built target BinaryToDecimal"
-.PHONY : CMakeFiles/BinaryToDecimal.dir/all
+CMakeFiles/DoublyLinkedListTest.dir/all: CMakeFiles/DoublyLinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=5,6 "Built target DoublyLinkedListTest"
+.PHONY : CMakeFiles/DoublyLinkedListTest.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/BinaryToDecimal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BinaryToDecimal.dir/all
+CMakeFiles/DoublyLinkedListTest.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/DoublyLinkedListTest.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/BinaryToDecimal.dir/rule
+.PHONY : CMakeFiles/DoublyLinkedListTest.dir/rule
 
 # Convenience name for target.
-BinaryToDecimal: CMakeFiles/BinaryToDecimal.dir/rule
-.PHONY : BinaryToDecimal
+DoublyLinkedListTest: CMakeFiles/DoublyLinkedListTest.dir/rule
+.PHONY : DoublyLinkedListTest
 
 # clean rule for target.
-CMakeFiles/BinaryToDecimal.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/clean
-.PHONY : CMakeFiles/BinaryToDecimal.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/FindKthNodeFromEnd.dir
-
-# All Build rule for target.
-CMakeFiles/FindKthNodeFromEnd.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=3,4 "Built target FindKthNodeFromEnd"
-.PHONY : CMakeFiles/FindKthNodeFromEnd.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/FindKthNodeFromEnd.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FindKthNodeFromEnd.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/FindKthNodeFromEnd.dir/rule
-
-# Convenience name for target.
-FindKthNodeFromEnd: CMakeFiles/FindKthNodeFromEnd.dir/rule
-.PHONY : FindKthNodeFromEnd
-
-# clean rule for target.
-CMakeFiles/FindKthNodeFromEnd.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/clean
-.PHONY : CMakeFiles/FindKthNodeFromEnd.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/FindMiddleNode.dir
-
-# All Build rule for target.
-CMakeFiles/FindMiddleNode.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=5,6 "Built target FindMiddleNode"
-.PHONY : CMakeFiles/FindMiddleNode.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/FindMiddleNode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FindMiddleNode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/FindMiddleNode.dir/rule
-
-# Convenience name for target.
-FindMiddleNode: CMakeFiles/FindMiddleNode.dir/rule
-.PHONY : FindMiddleNode
-
-# clean rule for target.
-CMakeFiles/FindMiddleNode.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/clean
-.PHONY : CMakeFiles/FindMiddleNode.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/PartitionList.dir
-
-# All Build rule for target.
-CMakeFiles/PartitionList.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=11,12 "Built target PartitionList"
-.PHONY : CMakeFiles/PartitionList.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/PartitionList.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PartitionList.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/PartitionList.dir/rule
-
-# Convenience name for target.
-PartitionList: CMakeFiles/PartitionList.dir/rule
-.PHONY : PartitionList
-
-# clean rule for target.
-CMakeFiles/PartitionList.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/clean
-.PHONY : CMakeFiles/PartitionList.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/RemoveDuplicates.dir
-
-# All Build rule for target.
-CMakeFiles/RemoveDuplicates.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=13,14 "Built target RemoveDuplicates"
-.PHONY : CMakeFiles/RemoveDuplicates.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/RemoveDuplicates.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RemoveDuplicates.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/RemoveDuplicates.dir/rule
-
-# Convenience name for target.
-RemoveDuplicates: CMakeFiles/RemoveDuplicates.dir/rule
-.PHONY : RemoveDuplicates
-
-# clean rule for target.
-CMakeFiles/RemoveDuplicates.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/clean
-.PHONY : CMakeFiles/RemoveDuplicates.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/ReverseBetween.dir
-
-# All Build rule for target.
-CMakeFiles/ReverseBetween.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=15,16 "Built target ReverseBetween"
-.PHONY : CMakeFiles/ReverseBetween.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/ReverseBetween.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ReverseBetween.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/ReverseBetween.dir/rule
-
-# Convenience name for target.
-ReverseBetween: CMakeFiles/ReverseBetween.dir/rule
-.PHONY : ReverseBetween
-
-# clean rule for target.
-CMakeFiles/ReverseBetween.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/clean
-.PHONY : CMakeFiles/ReverseBetween.dir/clean
-
-#=============================================================================
-# Target rules for target CMakeFiles/hasLoop.dir
-
-# All Build rule for target.
-CMakeFiles/hasLoop.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=19,20 "Built target hasLoop"
-.PHONY : CMakeFiles/hasLoop.dir/all
-
-# Build rule for subdir invocation for target.
-CMakeFiles/hasLoop.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hasLoop.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
-.PHONY : CMakeFiles/hasLoop.dir/rule
-
-# Convenience name for target.
-hasLoop: CMakeFiles/hasLoop.dir/rule
-.PHONY : hasLoop
-
-# clean rule for target.
-CMakeFiles/hasLoop.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/clean
-.PHONY : CMakeFiles/hasLoop.dir/clean
+CMakeFiles/DoublyLinkedListTest.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/DoublyLinkedListTest.dir/build.make CMakeFiles/DoublyLinkedListTest.dir/clean
+.PHONY : CMakeFiles/DoublyLinkedListTest.dir/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/LinkedListTest.dir
@@ -333,7 +264,7 @@ CMakeFiles/hasLoop.dir/clean:
 CMakeFiles/LinkedListTest.dir/all: CMakeFiles/LinkedList.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTest.dir/build.make CMakeFiles/LinkedListTest.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTest.dir/build.make CMakeFiles/LinkedListTest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=9,10 "Built target LinkedListTest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=15,16 "Built target LinkedListTest"
 .PHONY : CMakeFiles/LinkedListTest.dir/all
 
 # Build rule for subdir invocation for target.
@@ -351,6 +282,188 @@ LinkedListTest: CMakeFiles/LinkedListTest.dir/rule
 CMakeFiles/LinkedListTest.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/LinkedListTest.dir/build.make CMakeFiles/LinkedListTest.dir/clean
 .PHONY : CMakeFiles/LinkedListTest.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/BinaryToDecimal.dir
+
+# All Build rule for target.
+CMakeFiles/BinaryToDecimal.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=1,2 "Built target BinaryToDecimal"
+.PHONY : CMakeFiles/BinaryToDecimal.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/BinaryToDecimal.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/BinaryToDecimal.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/BinaryToDecimal.dir/rule
+
+# Convenience name for target.
+BinaryToDecimal: CMakeFiles/BinaryToDecimal.dir/rule
+.PHONY : BinaryToDecimal
+
+# clean rule for target.
+CMakeFiles/BinaryToDecimal.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/BinaryToDecimal.dir/build.make CMakeFiles/BinaryToDecimal.dir/clean
+.PHONY : CMakeFiles/BinaryToDecimal.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FindKthNodeFromEnd.dir
+
+# All Build rule for target.
+CMakeFiles/FindKthNodeFromEnd.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=9,10 "Built target FindKthNodeFromEnd"
+.PHONY : CMakeFiles/FindKthNodeFromEnd.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FindKthNodeFromEnd.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FindKthNodeFromEnd.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/FindKthNodeFromEnd.dir/rule
+
+# Convenience name for target.
+FindKthNodeFromEnd: CMakeFiles/FindKthNodeFromEnd.dir/rule
+.PHONY : FindKthNodeFromEnd
+
+# clean rule for target.
+CMakeFiles/FindKthNodeFromEnd.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindKthNodeFromEnd.dir/build.make CMakeFiles/FindKthNodeFromEnd.dir/clean
+.PHONY : CMakeFiles/FindKthNodeFromEnd.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/FindMiddleNode.dir
+
+# All Build rule for target.
+CMakeFiles/FindMiddleNode.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=11,12 "Built target FindMiddleNode"
+.PHONY : CMakeFiles/FindMiddleNode.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/FindMiddleNode.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/FindMiddleNode.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/FindMiddleNode.dir/rule
+
+# Convenience name for target.
+FindMiddleNode: CMakeFiles/FindMiddleNode.dir/rule
+.PHONY : FindMiddleNode
+
+# clean rule for target.
+CMakeFiles/FindMiddleNode.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/FindMiddleNode.dir/build.make CMakeFiles/FindMiddleNode.dir/clean
+.PHONY : CMakeFiles/FindMiddleNode.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/PartitionList.dir
+
+# All Build rule for target.
+CMakeFiles/PartitionList.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=19,20 "Built target PartitionList"
+.PHONY : CMakeFiles/PartitionList.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/PartitionList.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/PartitionList.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/PartitionList.dir/rule
+
+# Convenience name for target.
+PartitionList: CMakeFiles/PartitionList.dir/rule
+.PHONY : PartitionList
+
+# clean rule for target.
+CMakeFiles/PartitionList.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/PartitionList.dir/build.make CMakeFiles/PartitionList.dir/clean
+.PHONY : CMakeFiles/PartitionList.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/RemoveDuplicates.dir
+
+# All Build rule for target.
+CMakeFiles/RemoveDuplicates.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=21,22 "Built target RemoveDuplicates"
+.PHONY : CMakeFiles/RemoveDuplicates.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/RemoveDuplicates.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/RemoveDuplicates.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/RemoveDuplicates.dir/rule
+
+# Convenience name for target.
+RemoveDuplicates: CMakeFiles/RemoveDuplicates.dir/rule
+.PHONY : RemoveDuplicates
+
+# clean rule for target.
+CMakeFiles/RemoveDuplicates.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/RemoveDuplicates.dir/build.make CMakeFiles/RemoveDuplicates.dir/clean
+.PHONY : CMakeFiles/RemoveDuplicates.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/ReverseBetween.dir
+
+# All Build rule for target.
+CMakeFiles/ReverseBetween.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=23,24 "Built target ReverseBetween"
+.PHONY : CMakeFiles/ReverseBetween.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/ReverseBetween.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/ReverseBetween.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/ReverseBetween.dir/rule
+
+# Convenience name for target.
+ReverseBetween: CMakeFiles/ReverseBetween.dir/rule
+.PHONY : ReverseBetween
+
+# clean rule for target.
+CMakeFiles/ReverseBetween.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/ReverseBetween.dir/build.make CMakeFiles/ReverseBetween.dir/clean
+.PHONY : CMakeFiles/ReverseBetween.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/hasLoop.dir
+
+# All Build rule for target.
+CMakeFiles/hasLoop.dir/all: CMakeFiles/LinkedList.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=27,28 "Built target hasLoop"
+.PHONY : CMakeFiles/hasLoop.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/hasLoop.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 4
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/hasLoop.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /usr/src/app/build/CMakeFiles 0
+.PHONY : CMakeFiles/hasLoop.dir/rule
+
+# Convenience name for target.
+hasLoop: CMakeFiles/hasLoop.dir/rule
+.PHONY : hasLoop
+
+# clean rule for target.
+CMakeFiles/hasLoop.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/hasLoop.dir/build.make CMakeFiles/hasLoop.dir/clean
+.PHONY : CMakeFiles/hasLoop.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

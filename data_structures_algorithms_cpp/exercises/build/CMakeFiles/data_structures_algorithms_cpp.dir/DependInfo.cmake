@@ -8,12 +8,13 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/usr/src/app/LinkedLists/main.cpp" "CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o" "gcc" "CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o.d"
+  "/usr/src/app/main.cpp" "CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o" "gcc" "CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o.d"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
   "/usr/src/app/build/CMakeFiles/LinkedList.dir/DependInfo.cmake"
+  "/usr/src/app/build/CMakeFiles/DoublyLinkedList.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

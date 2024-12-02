@@ -70,7 +70,7 @@
         {
             "type": "shell",
             "label": "Run Unit Tests",
-            "command": "./build/LinkedListTest",
+            "command": "./build/bins/tests/LinkedListTest",
             "args": [
                 "--output-on-failure",  // Optional: print details for failed tests
                 "--gtest_output=xml:${workspaceFolder}/tests_results.xml"  // Save results to XML

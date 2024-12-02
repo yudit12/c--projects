@@ -2,12 +2,12 @@
 #include "LinkedList.h"  // Include the header file for LinkedList
 
 int main() {
-    std::cout << "Running data_structures_algorithms_cpp program!" << std::endl;
+    std::cout << "LinkedList main " << std::endl;
 
-    LinkedList list;
-    list.append(10);
-    list.append(20);
-    list.printList();
+    LinkedList* list = new LinkedList();
+    list->append(10);
+    list->append(20);
+    list->printList();
 
     return 0;
 }

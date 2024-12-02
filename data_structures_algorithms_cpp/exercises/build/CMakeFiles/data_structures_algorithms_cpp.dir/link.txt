@@ -1,1 +1,1 @@
-/usr/local/bin/c++ -g -g -fsanitize=address -fno-omit-frame-pointer -g CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o -o data_structures_algorithms_cpp  libLinkedList.a 
+/usr/local/bin/c++ -g -g -fsanitize=address -fno-omit-frame-pointer -g CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o -o bins/data_structures_algorithms_cpp  lib/libLinkedList.a lib/libDoublyLinkedList.a 

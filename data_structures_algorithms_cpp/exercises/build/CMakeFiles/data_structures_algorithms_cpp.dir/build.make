@@ -69,36 +69,37 @@ include CMakeFiles/data_structures_algorithms_cpp.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/data_structures_algorithms_cpp.dir/flags.make
 
-CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o: CMakeFiles/data_structures_algorithms_cpp.dir/flags.make
-CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o: /usr/src/app/LinkedLists/main.cpp
-CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o: CMakeFiles/data_structures_algorithms_cpp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o -MF CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o.d -o CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o -c /usr/src/app/LinkedLists/main.cpp
+CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o: CMakeFiles/data_structures_algorithms_cpp.dir/flags.make
+CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o: /usr/src/app/main.cpp
+CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o: CMakeFiles/data_structures_algorithms_cpp.dir/compiler_depend.ts
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o -MF CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o.d -o CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o -c /usr/src/app/main.cpp
 
-CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.i"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/app/LinkedLists/main.cpp > CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.i
+CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.i"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /usr/src/app/main.cpp > CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.i
 
-CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.s"
-	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/app/LinkedLists/main.cpp -o CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.s
+CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.s"
+	/usr/local/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /usr/src/app/main.cpp -o CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.s
 
 # Object files for target data_structures_algorithms_cpp
 data_structures_algorithms_cpp_OBJECTS = \
-"CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o"
+"CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o"
 
 # External object files for target data_structures_algorithms_cpp
 data_structures_algorithms_cpp_EXTERNAL_OBJECTS =
 
-data_structures_algorithms_cpp: CMakeFiles/data_structures_algorithms_cpp.dir/LinkedLists/main.cpp.o
-data_structures_algorithms_cpp: CMakeFiles/data_structures_algorithms_cpp.dir/build.make
-data_structures_algorithms_cpp: libLinkedList.a
-data_structures_algorithms_cpp: CMakeFiles/data_structures_algorithms_cpp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable data_structures_algorithms_cpp"
+bins/data_structures_algorithms_cpp: CMakeFiles/data_structures_algorithms_cpp.dir/main.cpp.o
+bins/data_structures_algorithms_cpp: CMakeFiles/data_structures_algorithms_cpp.dir/build.make
+bins/data_structures_algorithms_cpp: lib/libLinkedList.a
+bins/data_structures_algorithms_cpp: lib/libDoublyLinkedList.a
+bins/data_structures_algorithms_cpp: CMakeFiles/data_structures_algorithms_cpp.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/usr/src/app/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable bins/data_structures_algorithms_cpp"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/data_structures_algorithms_cpp.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-CMakeFiles/data_structures_algorithms_cpp.dir/build: data_structures_algorithms_cpp
+CMakeFiles/data_structures_algorithms_cpp.dir/build: bins/data_structures_algorithms_cpp
 .PHONY : CMakeFiles/data_structures_algorithms_cpp.dir/build
 
 CMakeFiles/data_structures_algorithms_cpp.dir/clean:
